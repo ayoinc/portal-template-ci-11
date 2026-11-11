@@ -1,0 +1,8 @@
+site_name: "sample-billing-resources"
+site_description: "The billing team's \"core\" resources: storage and network"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

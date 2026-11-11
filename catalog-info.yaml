@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-billing-resources
+  description: "The billing team's \"core\" resources: storage and network"
+  annotations:
+    github.com/project-slug: example-org/sample-billing-resources
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    cloud-provider: aws
+    environment: development
+    component-type: application
+  tags:
+    - terraform
+    - infrastructure
+    - aws
+    - development
+spec:
+  type: infrastructure
+  lifecycle: experimental
+  owner: group:default/platform-team
